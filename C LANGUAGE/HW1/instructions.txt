@@ -1,0 +1,50 @@
+Homework #1
+
+Write a program in the provided HW1.c file that performs the following requirements:
+
+1) Display your name on the current line of the console.
+2) On the next line, ask (query) the user for the number of hours
+of sleep for the previous night.
+3) This user entry is captured in your program in a double type variable.
+4) On the next line, ask (query) the user for the number of hours
+of sleep that was anticipated for tonight.
+5) This user entry is captured in your program in a double type variable
+that is unique (different) from what was captured from item 3 above.
+6) Display to the console on the next line the results of the user entry with the amount of sleep
+expressed with one decimal place. Example:
+Your sleep last night was 6.2 hours and your anticipated sleep tonight is 8.0 hours.
+7) On the next line, query the user what number grade is targeted in this class. This number
+will be captured in an integer type variable.
+8) On the next line. display the input from 7 to the screen. Example:
+You are expecting to receive a grade of 98 in this class.
+9) On the next line, display to the console the number of bytes that an integer type is allocated
+on your computer platform. Example: 
+On this computer platform an integer is allocated with x bytes.
+10) Do the same as in item 9, but now for a char type.
+11) Do the same as in item 9, but now for a float type.
+12) Do the same as in item 9, but now for a double type.
+
+
+Files provided:
+The file HW1.c is provided and should be used as a starting point for your program.
+
+Files submitted to Canvas:
+Your completed HW1.c program.
+An image of the console output running your program.
+
+There is a tutorial on a similar program that be viewed here:
+https://www.youtube.com/watch?v=aQtKMFAlkok&feature=youtu.be
+
+For information on the sizeof operator, see slide 12 of the DataType class slides.
+
+Your program must match the above listed requirements.
+Your program must compile with no errors or warnings for full credit.
+Your program must run and execute the above listed requirements.
+Your program must follow the Best Practices covered in class for full credit.
+Your program must be adequately commented for full credit.
+Your program must be tested for full credit.
+You  must submit an image of your program working for full credit.
+The program must be submitted on time in order to receive any credit.
+Late submissions will not be accepted or graded.
+All programming assignments are individual work, sharing code is considered cheating.
+

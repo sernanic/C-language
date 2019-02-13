@@ -1,0 +1,74 @@
+Homework #4 - COP2220
+
+Write a program in the provided HW4.c file that performs the following requirements:
+
+Display your name to the console.
+
+After displaying your name, there are 4 unique sections to this program.
+
+Section 1
+
+Create a while loop that that loops 5 times. Each time through the loop, a single number
+is displayed. After the loop is complete the display should be the following:
+5 4 3 2 1 
+
+
+Section 2
+
+Create a while loop that loops 5 times. Each time through the loop, a single number
+is displayed. After the loop is complete the display should be the following:
+96 97 98 99 100
+This display should be on a separate line from the Section 1 display.
+
+
+Section 3
+
+Using a while loop, query the user to enter any character.
+The while loop with loop 10 separate times, therefore the user will be queried 10 separate times.
+Each user query should contain the number of the character and be displayed on a separate
+line. For example:
+Enter character number 1
+Enter character number 2
+...
+Enter character number 10
+After the user has entered 10 characters, you will display how many letters from a to z AND
+A to Z (both small letters and capital letters combined) have been entered, how many digits 
+from 0 to 9 have been entered, and how many other characters (non-letters and non-digits) 
+have been entered. Each of these 3 totals should be displayed on a separate line. Example:
+You have entered 4 letters.
+You have entered 3 digits.
+You have entered 3 other characters.
+Be sure to enter the 3 different categories when executing your program.
+
+Section 4
+
+Using a do-while loop, query the user for an integer number or -999 to quit the entry process.
+When the user enters -999, the do-while loop will terminate. The -999 entry will not count as an
+entered number. After the user has completed the entry process, display the number of entries and 
+the average of the entries to 2 decimal places. If no entries are made by the user (the user just 
+enters -999) then display that 0 entries were made and the average cannot be determined. You must 
+not allow for a divide by zero in your program. Examples:
+Enter an integer number or -999 to quit this section
+
+You have entered 3 numbers that have an average of 5.33
+
+
+
+Files provided:
+The file HW4.c is provided and must be used as a starting point for your program.
+
+Files submitted to Canvas:
+Your completed HW4.c program.
+The image your program running all 4 sections.
+
+Your program must match the above listed requirements.
+Your program must compile with no errors or warnings for full credit.
+Your program must run and execute the above listed requirements.
+Your program must follow the Best Practices covered in class for full credit.
+Your program must be adequately commented for full credit.
+Your program must be tested for full credit.
+You  must submit an image of your program working for full credit.
+The program must be submitted on time in order to receive any credit.
+Late submissions will not be accepted or graded.
+All programming assignments are individual work, sharing code is considered cheating.
+
