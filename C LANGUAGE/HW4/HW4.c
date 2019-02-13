@@ -91,7 +91,6 @@ void section4(){
 int main(){
 
 	printf("Nicolas A. Serna\n");
-	printf("we try this again\n");
 	//section1
 	section1();
 
