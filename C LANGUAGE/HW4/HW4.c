@@ -36,7 +36,7 @@ void section3()
 	to enter any character.Each of these 3 possibilities 
 	total's should be displayed on a separate line.
 	*/
-	char intitialChar;
+	char intitialChar = ' ';
 	int count = 1;
 	int alphaCount = 0;
 	int digitCount = 0;
@@ -74,7 +74,7 @@ void section4()
 	*/
 	int queriedInput = 0, sum = 0;
 	float count = -1;
-	float average;
+	float average = 0.0;
 	do
 	{
 		printf("Enter a number: ");
@@ -103,7 +103,7 @@ int main()
 {
 
 	printf("Nicolas A. Serna\n");
-	printf("using visual studio");
+
 	//section1
 	section1();
 
