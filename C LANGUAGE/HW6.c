@@ -19,6 +19,7 @@ int main(){
 	return 0;
 }
 //this function has the guessing game
+
 void guessGame(){
 
 	int sevenGuessesArray [Array_Size];

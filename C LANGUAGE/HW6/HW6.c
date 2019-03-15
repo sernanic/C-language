@@ -4,12 +4,13 @@
 #include <stdlib.h>
 #include <time.h>
 #define Array_Size 7
+
 int getRandomInteger();
 void guessGame();
 void DisplayArray(int mainArray[], int length);
-void enteredGuessDecision(int enteredGuess,int generatedImt);
+
 int main(){
-	int sevenGuesses [Array_Size];
+
 	printf("nicolas serna\n" );
 	printf("Welcome to the guessong game\n" );
 	printf("You have 7 attempts to guess a random number from 1 to 100\n");
@@ -17,17 +18,18 @@ int main(){
 	guessGame();
 	return 0;
 }
+//this function has the guessing game
 void guessGame(){
 
 	int sevenGuessesArray [Array_Size];
-	int randomInt = 11;//getRandomInteger();
-	int numberGuesses = 0,enteredGuess = -1;
+	int randomInt = getRandomInteger();
+	int numberGuesses = 0,enteredGuess = 0;
 	
 	while(numberGuesses < Array_Size){
 		printf("Enter your next guess\n");
 		scanf("%d",&enteredGuess);
 		sevenGuessesArray[numberGuesses] = enteredGuess;
-		
+		//if the user guesses the random int
 		if(enteredGuess == randomInt){
 			printf("Congratulations, you have entered the correct number in %d guess\n",numberGuesses+1 );
 			break;
@@ -60,6 +62,7 @@ int getRandomInteger(){
 	}
 	return rand() % 100 + 1;
 }
+//this function displays all numbers in the array
 void DisplayArray(int mainArray [],int length){
 	int count = 0;
 	int number = 0;
