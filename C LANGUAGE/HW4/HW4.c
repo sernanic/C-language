@@ -1,8 +1,10 @@
 /*NameFeb 10, 2019Homework 4 - COP2220*/
+5
 #define _CRT_SECURE_NO_WARNINGS // used to all scanf to work
 #include <stdio.h>				/* used for printf and scanf functions */
 
-void section1()
+	void
+	section1()
 {
 	/*Created a while loop that that loops 5 times
 from 5 - 1 */

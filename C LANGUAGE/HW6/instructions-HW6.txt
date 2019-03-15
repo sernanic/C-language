@@ -1,0 +1,70 @@
+Homework #6 - COP2220
+
+Write a program in the provided HW6.c file that performs the following requirements:
+
+You are to write a Guessing Game program.
+The rules of the Guessing game will allow the user to guess a random integer number
+between 1 and 100. The user has 7 attempts to guess the number. After each guess, the game
+will display to the user whether the guess was too high or too low. If the user guesses
+the correct number within 7 attempts, the game will display a success message to the user.
+If the user does not guess the correct number within 7 attempts, then the game will display
+the random number and a failure message. In either the success or failure case, the game
+will display all of the user's guesses.
+
+There are 2 images that are provided that give an example of the program flow for both the
+success case and the failure case. 
+An array of an appropriate size and type must be used to save the user inputs.
+The following is psuedo code for the Guessing Game program.
+
+Display your name at the start.
+Display a welcome message to the user.
+Display the rules of the guessing game.
+Get a random number from 1 to 100.
+Do
+	Query the user for the next guess.
+	Get the user input.
+	Save the user input in an array.
+	If the user input is too low then
+		Display to the user that the input is too low.
+	Endif
+	If the user input is too high then
+		Display to the user that the input is too high.
+	Endif
+While the user has not guessed corectly AND the user has remaining guesses left
+If the user guessed correctly then
+	Display the success message.
+Else
+	Display the correct number.
+	Display the failure message.
+Endif
+Display all the user's guesses from the array.
+
+You will use the function getRandomInteger() to obtain the random number.
+You will implement the Guessing Game in the function
+void guessGame();
+
+You will test the program in 2 cases. First the success case and second the failure case.
+An image of the success case and the failure case will be captured and submitted. 
+
+
+Files provided:
+The file HW6.c is provided and must be used as a starting point for your program.
+HW6-failure.png
+HW6-success.png
+
+Files submitted to Canvas:
+Your completed HW6.c program.
+The image your program running the success case.
+The image your program running the failure case.
+
+Your program must match the above listed requirements.
+Your program must compile with no errors or warnings for full credit.
+Your program must run and execute the above listed requirements.
+Your program must follow the Best Practices covered in class for full credit.
+Your program must be adequately commented for full credit.
+Your program must be tested for full credit.
+You  must submit an image of your program working for full credit.
+The program must be submitted on time in order to receive any credit.
+Late submissions will not be accepted or graded.
+All programming assignments are individual work, sharing code is considered cheating.
+
