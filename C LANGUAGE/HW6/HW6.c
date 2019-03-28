@@ -73,11 +73,13 @@ int getRandomInteger(){
 void DisplayArray(int mainArray [],int length){
 	int count = 0;
 	int number = 0;
-	//displays the numbers in the array
+	//this is done in order to not look beyond the scope of the array
+	//an array of size 7 can only look till index 6
 	if(length == Array_Size){
 		length -= 1;
 	}
 	printf("Your guesses were\n");
+	//displays the numbers in the array
 	while(count <= length){
 		number = mainArray[count];
 		printf("%d ",number );
