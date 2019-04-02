@@ -117,14 +117,14 @@ void reverseArray(int a1[], int length)
 {	//create a new array that will store the inverse of a1
 	int newInverseArray[length];
 	//indexArrayInverse will allow us to start from the end of a1
-	int indexArrayInverse = length -1;
-	for (int i = 0; i < length; i++) {
-		newInverseArray[i] = a1[indexArrayInverse - i];
+	int newLength = length/2;
+	int storeVariable = 0;
+	for (int i = 0; i < newLength; i++) {
+		storeVariable = a1[i];
+		a1[i] = a1[length -1 -i];
+		a1[length -1 -i] = storeVariable;
 	}
-	//assign all values of a1 to the values of newInverseArray
-	for (int i = 0; i < length; i++) {
-		a1[i] = newInverseArray[i];
-	}
+
 }
 
 // The function countLetters() has 1 input parameter.
